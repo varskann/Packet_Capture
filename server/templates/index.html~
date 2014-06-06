@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kanishk varshney</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css"> 
+	<link rel="shortcut icon" href="static/icon.ico">
+</head>
+<body>
+	<form>
+		<div> 
+			<label>
+				<span>URL:</span><div id = "tb"><input type = "text" name = "URL"></div><br>
+			</label>
+	
+			<input type = "button" value = "Get Response" />
+			<input type = "button" value = "Browse" />
+			<br><br>
+			<label>
+				Download:<a href = "static/jinja.exe">Jinja</a>
+			</label>
+		</div>
+	</form>
+</body>
+</html>
