@@ -1,0 +1,25 @@
+** This folder contains two .py files:
+1. create_db.py: Parse the .pcap file and create the database of requests and responses.
+2. proxy.py: To set up a proxy server and get the response from the database instead of getting it from the server.
+
+To Run:
+=======
+Install	Pynids, dpkt, CherryProxy, logging, sqlite3 modules to run the code.
+
+Change the name of the .pcap file in the proxy.py script for which we want to run the replay
+and move the .pcap file to this folder.
+
+
+Command:	python proxy.py -a ADDRESS -p PORT
+
+		ADDRESS: address on which we want to run the proxy server
+		PORT: port on which we want to run the proxy server
+
+
+Commnets:
+=========
+proxy.py automatically runs the create_db.py file (which creates the "newdb.db" database)
+and starts a proxy server at given address and port.
+
+
+
