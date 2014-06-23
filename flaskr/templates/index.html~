@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kanishk varshney</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css"> 
+	<link rel="shortcut icon" href="static/icon.ico">
+</head>
+<body>
+
+	<form method = "post">
+		<div id = "place">
+			<table>
+				<tr style = "background-color: #68C6DE; height: 40px; font-style: italic; text-shadow: 4px 4px 5px #797979;">
+					<td>Pcap File Name</td>					
+					<td>Packet Number</td>
+					<td style = "width: 500px">Request URI</td>
+					<td>Response Status</td>
+					<td>Content length</td>
+					<td>Content type</td>
+				</tr>
+			{% for item in name: %}
+				<tr style = "background-color: #FFF; height: 40px;">
+					<td>{% print item[0] %}</td>	
+					<td>{% print item[1] %}</td>
+					<td style = "width: 500px">{% print item[2] %}</td>
+					<td>{% print item[3] %}</td>
+				</tr>
+			{% endfor %}
+
+			</table>
+			<br /><br /><br />
+			
+			Enter packet number: <input type = "text" name = "Packet" />   (Type * for deleting the entire file)
+			<br /><br />
+			Pcap file name:
+			<select name = "pcap_file">
+				{% for i in pcap: %}
+					<option>{% print i %}</option>
+				{% endfor %}
+			</select>
+			<br /><br />
+			<input type = "submit" value = "Get Response" name = "get_response"  formaction = "{{ url_for('register') }}"/>
+			<input type = "submit" value = "Delete" name = "delete_request"  formaction = "{{ url_for('delete') }}"/>
+			<input type = "submit" value = "Browse" name = "browse" formaction = "{{ url_for('browse') }}" />
+			<br><br><br>
+			
+			Download:<a class = "down" href = "static/jinja.exe">Jinja</a>
+
+		</div>
+	</form>
+
+	{% with messages = get_flashed_messages() %}
+		{% if messages %}
+			Results:
+			<pre>
+				{% for message in messages %}
+				{{message}}
+				{% endfor %}
+			</pre>
+		{% endif %}
+	{% endwith %}
+</body>
+</html>

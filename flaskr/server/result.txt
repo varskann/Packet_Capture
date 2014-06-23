@@ -1,0 +1,342 @@
+
+Request: GET www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDIQFjAB&url=http%3A%2F%2Fcode.google.com%2Fp%2Fpcapsctpspliter%2Fissues%2Fdetail%3Fid%3D6&ei=GLaFU-v2OIy58gXR4ID4DA&usg=AFQjCNHqI33lOpPNBfW87HzUFowM0iCbGA&sig2=9oO_0ujnn2SprNjhRUV2zw&bvm=bv.67720277,d.dGc&cad=rja
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: <script>window.googleJavaScriptRedirect=1</script><script>var m={navigateTo:function(b,a,d){if(b!=a&&b.google){if(b.google.r){b.google.r=0;b.location.href=d;a.location.replace("about:blank");}}else{a.location.replace(d);}}};m.navigateTo(window.parent,window,"http://code.google.com/p/pcapsctpspliter/issues/detail?id\x3d6");
+</script><noscript><META http-equiv="refresh" content="0;URL='http://code.google.com/p/pcapsctpspliter/issues/detail?id=6'"></noscript>
+_________________
+
+Request: GET www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDIQFjAB&url=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F21147110%2Freading-a-pcap-file-in-c&ei=JLaFU7f-JM_98QW85oLQAQ&usg=AFQjCNFZ5D8UbEsUgFcc3Om2FfwxIIDwVA&sig2=DKi2PpYmsvhKKd8iFQzpVA&bvm=bv.67720277,d.dGc
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: <script>window.googleJavaScriptRedirect=1</script><script>var m={navigateTo:function(b,a,d){if(b!=a&&b.google){if(b.google.r){b.google.r=0;b.location.href=d;a.location.replace("about:blank");}}else{a.location.replace(d);}}};m.navigateTo(window.parent,window,"http://stackoverflow.com/questions/21147110/reading-a-pcap-file-in-c");
+</script><noscript><META http-equiv="refresh" content="0;URL='http://stackoverflow.com/questions/21147110/reading-a-pcap-file-in-c'"></noscript>
+_________________
+
+Request: GET www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCoQFjAA&url=http%3A%2F%2Fwiki.wireshark.org%2FSampleCaptures&ei=XLeFU_WLDof88QWZiIDoCA&usg=AFQjCNGl3MNW2l_GV4mL7WND5QY8EptQNQ&sig2=3qJC791Jeo-SR7QF6XKNHg&bvm=bv.67720277,d.dGc&cad=rja
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: <script>window.googleJavaScriptRedirect=1</script><script>var m={navigateTo:function(b,a,d){if(b!=a&&b.google){if(b.google.r){b.google.r=0;b.location.href=d;a.location.replace("about:blank");}}else{a.location.replace(d);}}};m.navigateTo(window.parent,window,"http://wiki.wireshark.org/SampleCaptures");
+</script><noscript><META http-equiv="refresh" content="0;URL='http://wiki.wireshark.org/SampleCaptures'"></noscript>
+_________________
+
+Request: GET www.wireshark.org/assets/css/ws-wiki-print.css
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: body{background:white;font-size:9pt;font-family:"Times New Roman",Times,serif;line-height:1.4em;color:black;
+}a.www:before,a.http:before,a.https:before,a.file:before,a.ftp:before,a.nntp:before,a.news:before,a.telnet:before,a.ssh:before,a.irc:before,a.ircs:before,a.mailto:before,a.attachment:before,a.badinterwiki:before,a.interwiki:before,a.action:before{content:none;margin:0;}h3{font-size:11px;}h2{font-size:12px;}h1{font-size:14px;}#header,#searchform,#username,#pagetrail,#navibar,.editbar{display:none;}#page{margin-top:0.0in;margin-left:0.0in;margin-right:0.25in;}#content{margin:0;padding:0;border:0;
+}ul,ol{padding-left:1.2em;}a:link{text-decoration:none;border-bottom:0.5px dotted #ccc;}
+_________________
+
+Request: GET www.wireshark.org/assets/css/ws-wiki-screen.css
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: body{font-family:"Open Sans","DejaVu Sans",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.4142;}pre{font-family:Menlo,Consolas,"Bitstream Vera Sans Mono","Liberation Mono",monospace;}#content{max-width:940px;margin-left:auto;margin-right:auto;}a.www:before,a.http:before,a.https:before,a.file:before,a.ftp:before,a.nntp:before,a.news:before,a.telnet:before,a.ssh:before,a.irc:before,a.ircs:before,a.mailto:before,a.attachment:before,a.badinterwiki:before,a.interwiki:before,a.action:before{content:none;margin:0;}h1,h2,h3,h4{font-weight:bold;}h1{font-size:17px;line-height:19px;}h2{font-size:16px;line-height:18px;}h3{font-size:14px;line-height:16px;}img{border:0px;}ul,ol{padding-left:1.5em;}
+_________________
+
+Request: GET www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CEYQFjAD&url=http%3A%2F%2Fwww.netoptics.com%2Fblog%2F01-07-2011%2Fsample-pcap-files&ei=YreFU9XYL4rg8AWwk4GADQ&usg=AFQjCNG0R8TroRlfiFn1Ev0bPR4_EiQJ4g&sig2=IWth2w0jw3dqj0gmVFO7Xw&bvm=bv.67720277,d.dGc
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: <script>window.googleJavaScriptRedirect=1</script><script>var m={navigateTo:function(b,a,d){if(b!=a&&b.google){if(b.google.r){b.google.r=0;b.location.href=d;a.location.replace("about:blank");}}else{a.location.replace(d);}}};m.navigateTo(window.parent,window,"http://www.netoptics.com/blog/01-07-2011/sample-pcap-files");
+</script><noscript><META http-equiv="refresh" content="0;URL='http://www.netoptics.com/blog/01-07-2011/sample-pcap-files'"></noscript>
+_________________
+
+Request: GET www.netoptics.com/sites/all/themes/netoptics/js/jquery.mousewheel-3.0.2.pack.js
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: /*! Copyright (c) 2009 Brandon Aaron (http://brandonaaron.net)
+ * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
+ * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
+ * Thanks to: http://adomas.org/javascript-mouse-wheel/ for some pointers.
+ * Thanks to: Mathias Bank(http://www.mathias-bank.de) for a scope bug fix.
+ *
+ * Version: 3.0.2
+ * 
+ * Requires: 1.2.2+
+ */
+
+(function(b){function d(a){var f=[].slice.call(arguments,1),e=0;a=b.event.fix(a||window.event);a.type="mousewheel";if(a.wheelDelta)e=a.wheelDelta/120;if(a.detail)e=-a.detail/3;f.unshift(a,e);return b.event.handle.apply(this,f)}var c=["DOMMouseScroll","mousewheel"];b.event.special.mousewheel={setup:function(){if(this.addEventListener)for(var a=c.length;a;)this.addEventListener(c[--a],d,false);else this.onmousewheel=d},teardown:function(){if(this.removeEventListener)for(var a=c.length;a;)this.removeEventListener(c[--a],d,false);else this.onmousewheel=null}};b.fn.extend({mousewheel:function(a){return a?this.bind("mousewheel",a):this.trigger("mousewheel")},unmousewheel:function(a){return this.unbind("mousewheel",a)}})})(jQuery);
+_________________
+
+Request: GET www.netoptics.com/sites/all/modules/codefilter/codefilter.css?E
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: div.codeblock {
+  padding: 5px;
+  border: 1px solid #CCC;
+  background-color: #EEE;
+}
+
+_________________
+
+Request: GET www.netoptics.com/sites/all/modules/tree_menus/tree_menus.css?E
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: #admin-menu {
+	position:absolute;
+	top:0;
+	left:0;
+	font:12px tahoma, verdana, arial, sans-serif;
+	background:#101010 url(images/bkg.png) repeat-x 0 100%;
+	width:100%;
+	z-index:999;
+}
+#admin-menu ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	z-index:999;
+	float:left;
+	text-align:left;
+}
+#admin-menu ul li {
+	float:left;
+	margin:0;
+	padding:0;
+	list-style-image:none;
+	list-style-type:none;
+	background:none;
+	position:relative;
+}
+#admin-menu ul li a {
+	display:block;
+	border-right:1px solid #323232;
+	border-bottom:0;
+	padding:6px 8px;
+	color:#eee;
+	text-decoration:none;
+}
+#admin-menu ul li a:hover,
+#admin-menu ul li a.active {
+	color:#fff;
+	text-decoration:none;
+	font-weight:normal;
+}
+#admin-menu ul li ul {
+	display:none;
+	position:absolute;
+	left:0;
+	width:160px;
+}
+#admin-menu ul li ul li a {
+	border-right:0;
+	border-top:1px solid #323232;
+	background:#202020;
+	filter:alpha(opacity=88);
+	opacity:0.88;
+	width:144px;
+	overflow:hidden;
+}
+#admin-menu ul li ul li.submenu a,
+#admin-menu ul li ul li ul li.submenu a {
+	background:#45454a url(images/arrow.png) no-repeat 145px 7px;
+}
+#admin-menu ul li ul li.submenu li a,
+#admin-menu ul li ul li ul li.submenu li a {
+	background:#202020;
+}
+#admin-menu ul li ul li ul {
+	top:0;
+	left:160px;
+	position:absolute;
+}
+#admin-menu ul li:hover ul,
+#admin-menu ul li:hover li:hover ul,
+#admin-menu ul li:hover li:hover li:hover ul,
+#admin-menu ul li:hover li:hover li:hover li:hover ul,
+#admin-menu ul li.hover ul,
+#admin-menu ul li.hover li.hover ul,
+#admin-menu ul li.hover li.hover li.hover ul,
+#admin-menu ul li.hover li.hover li.hover li.hover ul {
+	display:block;
+}
+#admin-menu ul li:hover ul ul,
+#admin-menu ul li:hover li:hover ul ul,
+#admin-menu ul li:hover li:hover li:hover ul ul,
+#admin-menu ul li:hover li:hover li:hover li:hover ul ul,
+#admin-menu ul li.hover ul ul,
+#admin-menu ul li.hover li.hover ul ul,
+#admin-menu ul li.hover li.hover li.hover ul ul,
+#admin-menu ul li.hover li.hover li.hover li.hover ul ul {
+	display:none;
+}
+_________________
+
+Request: GET munchkin.marketo.net/munchkin.js
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: /*
+ * Copyright (c) 2007-2014, Marketo, Inc. All rights reserved.
+ * Marketo marketing automation web activity tracking script
+ * Version: prod r424
+ */
+(function(a){if(!a.Munchkin){var c=a.document,e=[],k,l={fallback:"142"},g=[],m=function(){if(!k){for(;0<e.length;){var f=e.shift();a.MunchkinTracker[f[0]].apply(a.MunchkinTracker,f[1])}k=!0}},p=function(f){var b=c.createElement("script"),a=c.getElementsByTagName("base")[0]||c.getElementsByTagName("script")[0];b.type="text/javascript";b.async=!0;b.src=f;b.onreadystatechange=function(){"complete"!==this.readyState&&"loaded"!==this.readyState||m()};b.onload=m;a.parentNode.insertBefore(b,a)},h={ASSOCIATE_LEAD:"ASSOCIATE_LEAD",
+CLICK_LINK:"CLICK_LINK",VISIT_WEB_PAGE:"visitWebPage",init:function(a){e.push(["init",arguments]);var b=l[a];if(0<g.length){var b=a,c=0,d;if(0!==b.length)for(d=0;d<b.length;d+=1)c+=b.charCodeAt(d);b=g[c%g.length]}b||(b=l.fallback);p("//munchkin.marketo.net/"+b+"/munchkin.js")}},n=function(a){return h[a]=function(){e.push([a,arguments])}};a.mktoMunchkinFunction=n("munchkinFunction");n("createTrackingCookie");a.Munchkin=h;a.mktoMunchkin=h.init}})(window);
+
+_________________
+
+Request: GET seg.sharethis.com/getSegment.php?purl=http%3A%2F%2Fwww.netoptics.com%2Fblog%2F01-07-2011%2Fsample-pcap-files&jsref=http%3A%2F%2Fwww.google.co.in%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D4%26ved%3D0CEYQFjAD%26url%3Dhttp%253A%252F%252Fwww.netoptics.com%252Fblog%252F01-07-2011%252Fsample-pcap-files%26ei%3DYreFU9XYL4rg8AWwk4GADQ%26usg%3DAFQjCNG0R8TroRlfiFn1Ev0bPR4_EiQJ4g%26sig2%3DIWth2w0jw3dqj0gmVFO7Xw%26bvm%3Dbv.67720277%2Cd.dGc&rnd=1401272198196
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: 
+
+
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+			<html>
+			<head>
+			<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+			<title>ShareThis Segmenter</title></head>
+			<body>
+			
+			<img src="http://p.nexac.com/e/sr/a-1548/s-3271/s-3271.xgi" width="1" height="1" border="0">
+			<script type="text/javascript">
+					var ref=document.referrer;var lurl = (("https:" == document.location.protocol) ? "https://sb." : "http://b.")+"scorecardresearch.com/";lurl+="b?";lurl+="c1=7"+"&c2=8097938"+"&rn=" +Math.round(Math.random() * 2147483647 )+ "&c7=" + encodeURIComponent(document.location.href)+ "&c3=8097938"+ "&c8="+encodeURIComponent(document.title)+ ( (ref)? "&c9="+encodeURIComponent(document.referrer) :  "" )+ "&cv=2.2"+ "&cs=js";
+					var logger = new Image(1,1);logger.src = lurl;logger.onload = function(){return;};	
+					</script>
+			
+				<script type="text/javascript">
+					 var current_date = new Date;
+					  var cookie_string = "__uset" + "=" + escape("yes");
+					  var expires = new Date (current_date.getTime()+(86400000));
+					  cookie_string += "; expires=" + expires.toGMTString();
+					  cookie_string += "; domain=" + escape (".sharethis.com")+";path=/";
+					  document.cookie = cookie_string;
+				</script>
+		
+			
+			
+				<div style='display:none'> [clicookie:CnsTN1N8MWuHCngYkC/9Ag==]  [userid:37137B0A6B317C5318780A8702FD2F90]  [userTag:]  [SearchSegment:] </div>
+			</body>
+			</html>
+_________________
+
+Request: GET wd.sharethis.com/api/getCount2.php?cb=stButtons.processCB&refDomain=www.google.co.in&refQuery=url%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D4%26ved%3D0CEYQFjAD%26url%3Dhttp%253A%252F%252Fwww.netoptics.com%252Fblog%252F01-07-2011%252Fsample-pcap-files%26ei%3DYreFU9XYL4rg8AWwk4GADQ%26usg%3DAFQjCNG0R8TroRlfiFn1Ev0bPR4_EiQJ4g%26sig2%3DIWth2w0jw3dqj0gmVFO7Xw%26bvm%3Dbv.67720277%2Cd.dGc&pgurl=http%3A%2F%2Fwww.netoptics.com%2Fblog%2F01-07-2011%2Fsample-pcap-files&pubKey=ac5f262e-9a29-4636-9718-1cac9220678e&url=http%3A%2F%2Fwww.netoptics.com%2Fblog%2F01-07-2011%2Fsample-pcap-files%23sthash.Bp8MqjKm
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: (function(){stButtons.processCB({"yahoo":15,"google":1655,"clicks_total":1673,"email":3,"mongo":1,"fblike":1,"total":1675,"shares":{"all":1,"mongo":1,"fblike":1},"url":"http:\/\/www.netoptics.com\/blog\/01-07-2011\/sample-pcap-files","ourl":"http:\/\/www.netoptics.com\/blog\/01-07-2011\/sample-pcap-files#sthash.Bp8MqjKm"})})();
+_________________
+
+Request: GET disqus.com/api/3.0/embed/threadDetails.json?thread=770408020&_1401272237050=1&api_key=E8Uh5l5fHZ6gD8U3KycjAIAk46f68Zw7C6eW8WSjZvCLXebZ7p0r1yrYDrLilk2F
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: {"code":0,"response":{"session":{"isReadOnly":false},"discovery":{"name":"default","consoleLoggingEnabled":false,"trackAdVisibility":true,"discoverySettingsUrl":"http://pcapr.disqus.com/admin/settings/ads/","darkJester":true,"organicExperimentsEnabled":false}}}
+_________________
+
+Request: GET juggler.services.disqus.com/event.js?experiment=default&variant=control&product=embed&thread=770408020&forum=pcapr&forum_id=449842&zone=thread&page_url=http%3A%2F%2Fwww.pcapr.net%2Fview%2Fradha.forums%2F2012%2F6%2F3%2F5%2Fhttp1.pcap.html&page_referrer_domain=www.pcapr.net&verb=view&object_type=product&object_id=embed&event=activity&imp=14ejkhl1vvou4j&prev_imp=&bin=embed%3Athread%3A%3Adefault%3Acontrol&section=default&area=n%2Fa
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: (function () {return {resp: "OK"};})();
+_________________
+
+Request: GET referrer.disqus.com/juggler/event.js?experiment=default&variant=control&product=embed&thread=770408020&forum=pcapr&forum_id=449842&zone=thread&page_url=http%3A%2F%2Fwww.pcapr.net%2Fview%2Fradha.forums%2F2012%2F6%2F3%2F5%2Fhttp1.pcap.html&page_referrer_domain=www.pcapr.net&verb=view&object_type=product&object_id=embed&event=activity&imp=14ejkhl1vvou4j&prev_imp=&bin=embed%3Athread%3A%3Adefault%3Acontrol&section=default&area=n%2Fa
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: (function () {return {resp: "OK"};})();
+
+_________________
+
+Request: GET referrer.disqus.com/juggler/event.js?thread_slug=http1pcap_tcp_pcapr&user_type=anon&referrer=http%3A%2F%2Fwww.pcapr.net%2Fview%2Fradha.forums%2F2012%2F6%2F3%2F5%2Fhttp1.pcap.html&theme=next&organic_enabled=true&promoted_enabled=false&max_enabled=false&thumbnails_enabled=false&event=init_embed&thread=770408020&forum=pcapr&forum_id=449842&imp=14ejkhl1vvou4j&prev_imp
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: (function () {return {resp: "OK"};})();
+
+_________________
+
+Request: GET disqus.com/api/3.0/discovery/listTopPost.json?thread=1929280128&thread=1929332305&thread=2643525642&api_key=E8Uh5l5fHZ6gD8U3KycjAIAk46f68Zw7C6eW8WSjZvCLXebZ7p0r1yrYDrLilk2F
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: {"code":0,"response":[{"parent":1106044532,"likes":0,"forum":"pcapr","thread":"1929280128","isApproved":true,"author":{"name":"ss","url":"","profileUrl":"","emailHash":"","avatar":{"small":{"permalink":"//a.disquscdn.com/1400712252/images/noavatar32.png","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"large":{"permalink":"//a.disquscdn.com/1400712252/images/noavatar92.png","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"},"permalink":"//a.disquscdn.com/1400712252/images/noavatar92.png","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"},"isAnonymous":true},"media":[],"isFlagged":false,"dislikes":0,"raw_message":"ssss","createdAt":"2013-11-06T03:48:34","id":"1110567195","numReports":0,"isDeleted":false,"isEdited":false,"message":"<p>ssss</p>","isSpam":false,"isHighlighted":false,"points":0},{"parent":1361753750,"likes":0,"forum":"pcapr","thread":"2643525642","isApproved":true,"author":{"name":"noname","url":"","profileUrl":"","emailHash":"","avatar":{"small":{"permalink":"//a.disquscdn.com/1400712252/images/noavatar32.png","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"large":{"permalink":"//a.disquscdn.com/1400712252/images/noavatar92.png","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"},"permalink":"//a.disquscdn.com/1400712252/images/noavatar92.png","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"},"isAnonymous":true},"media":[],"isFlagged":false,"dislikes":0,"raw_message":"<script>sdf</script>","createdAt":"2014-04-30T01:46:04","id":"1361759392","numReports":0,"isDeleted":false,"isEdited":false,"message":"<p>&lt;script&gt;sdf&lt;/script&gt;</p>","isSpam":false,"isHighlighted":false,"points":0},{"parent":null,"likes":0,"forum":"pcapr","thread":"1929332305","isApproved":true,"author":{"name":"vam","url":"","profileUrl":"","emailHash":"","avatar":{"small":{"permalink":"//a.disquscdn.com/1400712252/images/noavatar32.png","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"large":{"permalink":"//a.disquscdn.com/1400712252/images/noavatar92.png","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"},"permalink":"//a.disquscdn.com/1400712252/images/noavatar92.png","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"},"isAnonymous":true},"media":[],"isFlagged":false,"dislikes":0,"raw_message":"@#$(#$(#*&$(#@*&$(#@>>#>#@##<>>>>>>>@#&#@(<<<www.baidu.com>>>><script>alert(\"aaa\");</script>","createdAt":"2014-05-06T03:28:09","id":"1371379416","numReports":0,"isDeleted":false,"isEdited":false,"message":"<p>@#$(#$(#*&amp;$(#@*&amp;$(#@&gt;&gt;#&gt;#@##&lt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;@#&amp;#@(&lt;&lt;&lt;<a href=\"http://www.baidu.com\" rel=\"nofollow\">www.baidu.com</a>&gt;&gt;&gt;&gt;&lt;script&gt;alert(\"aaa\");&lt;/script&gt;</p>","isSpam":false,"isHighlighted":false,"points":0}]}
+_________________
+
+Request: GET referrer.disqus.com/juggler/event.js?major_version=metadata&internal_organic=3&external_organic=0&promoted=0&display=false&placement=bottom&event=init_discovery&thread=770408020&forum=pcapr&forum_id=449842&imp=14ejkhl1vvou4j&prev_imp
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: (function () {return {resp: "OK"};})();
+
+_________________
+
+Request: GET juggler.services.disqus.com/event.js?major_version=metadata&internal_organic=3&external_organic=0&promoted=0&display=false&placement=bottom&event=init_discovery&thread=770408020&forum=pcapr&forum_id=449842&imp=14ejkhl1vvou4j&prev_imp
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: (function () {return {resp: "OK"};})();
+_________________
+
+Request: GET www.google.co.in/ads/user-lists/1072569607/?fmt=1&num=1&cv=7&frm=0&url=http%3A%2F%2Fwww.netoptics.com%2Fblog%2Farchive%2F201404&ref=http%3A%2F%2Fwww.netoptics.com%2Fblog%2F01-07-2011%2Fsample-pcap-files&random=1066459817&ipr=y
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: <html><body style="background-color:transparent"></body></html>
+_________________
+
+Request: GET seg.sharethis.com/getSegment.php?purl=http%3A%2F%2Fwww.netoptics.com%2Fblog%2Farchive%2F201404&jsref=http%3A%2F%2Fwww.netoptics.com%2Fblog%2F01-07-2011%2Fsample-pcap-files&rnd=1401272245067
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: 
+
+
+			<!DOCTYPE html>
+			<html>
+			<head>
+			<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+			<title>ShareThis Segmenter</title></head>
+			<body>
+			<script type="text/javascript">
+					var ref=document.referrer;var lurl = (("https:" == document.location.protocol) ? "https://sb." : "http://b.")+"scorecardresearch.com/";lurl+="b?";lurl+="c1=7"+"&c2=8097938"+"&rn=" +Math.round(Math.random() * 2147483647 )+ "&c7=" + encodeURIComponent(document.location.href)+ "&c3=8097938"+ "&c8="+encodeURIComponent(document.title)+ ( (ref)? "&c9="+encodeURIComponent(document.referrer) :  "" )+ "&cv=2.2"+ "&cs=js";
+					var logger = new Image(1,1);logger.src = lurl;logger.onload = function(){return;};	
+					</script>
+			
+			<div style='display:none'>uset found</div>
+			</body>
+			</html>
+_________________
+
+Request: GET wd.sharethis.com/api/getCount2.php?cb=stButtons.processCB&refDomain=www.netoptics.com&refQuery=blog%2F01-07-2011%2Fsample-pcap-files&pgurl=http%3A%2F%2Fwww.netoptics.com%2Fblog%2Farchive%2F201404&pubKey=ac5f262e-9a29-4636-9718-1cac9220678e&url=http%3A%2F%2Fwww.netoptics.com%2Fblog%2Farchive%2F201404%23sthash.hVI2Zyj4
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: (function(){stButtons.processCB({"google":2,"clicks_total":2,"total":2,"shares":[],"url":"http:\/\/www.netoptics.com\/blog\/archive\/201404","ourl":"http:\/\/www.netoptics.com\/blog\/archive\/201404#sthash.hVI2Zyj4"})})();
+_________________
+
+Request: GET www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCwQFjAA&url=http%3A%2F%2Fwww.wireshark.org%2Fdocs%2Fwsug_html_chunked%2FChIOSaveSection.html&ei=9biFU4bGJsWj8AXnqIHoCw&usg=AFQjCNHyq2kJDgUVpp8g0ZfubTVZpl5BLA&sig2=O7QB9eiR9N7CzfDt_TiYzw&bvm=bv.67720277,d.dGc
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: <script>window.googleJavaScriptRedirect=1</script><script>var m={navigateTo:function(b,a,d){if(b!=a&&b.google){if(b.google.r){b.google.r=0;b.location.href=d;a.location.replace("about:blank");}}else{a.location.replace(d);}}};m.navigateTo(window.parent,window,"http://www.wireshark.org/docs/wsug_html_chunked/ChIOSaveSection.html");
+</script><noscript><META http-equiv="refresh" content="0;URL='http://www.wireshark.org/docs/wsug_html_chunked/ChIOSaveSection.html'"></noscript>
+_________________
+
+Request: GET fonts.googleapis.com/css?family=Cabin:400,500,700
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: @font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Regular'), local('Cabin-Regular'), url(http://themes.googleusercontent.com/static/fonts/cabin/v5/JEgmtEDzc-IH8jBshQXrYA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Cabin Medium'), local('Cabin-Medium'), url(http://themes.googleusercontent.com/static/fonts/cabin/v5/km2iCywk7CnC11BE8pBNVPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Bold'), local('Cabin-Bold'), url(http://themes.googleusercontent.com/static/fonts/cabin/v5/haOjnueK8Or1ztuuRtr8dvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+_________________
+
+Request: GET www.scoopwhoop.com/wp-content/themes/scoop_whoop/css/lufonts.css?u=5385b32e24f98
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: @font-face {
+    font-family: 'LatoRegular'; src: url('../fontslu/lato-regular.eot'); src: url('../fontslu/lato-regular.eot') format('embedded-opentype'), url('../fontslu/lato-regular.woff') format('woff'), url('../fontslu/lato-regular.ttf') format('truetype'), url('../fontslu/lato-regular.svg#LatoRegular') format('svg');
+}
+@font-face {
+    font-family: 'LatoLight';src: url('../fontslu/lato-light.eot');src: url('../fontslu/lato-light.eot') format('embedded-opentype'),url('../fontslu/lato-light.woff') format('woff'),url('../fontslu/lato-light.ttf') format('truetype'),url('../fontslu/lato-light.svg#LatoLight') format('svg');
+}
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('../fontslu/lato-black.eot');src: url('../fontslu/lato-black.eot') format('embedded-opentype'),url('../fontslu/lato-black.woff') format('woff'), url('../fontslu/lato-black.ttf') format('truetype'),url('../fontslu/lato-black.svg#LatoBlack') format('svg');
+}
+_________________

@@ -1,0 +1,153 @@
+import cherryproxy
+import sys
+import os
+import create_db
+import urlparse, urllib2, httplib, sys, threading, logging
+from cherryproxy import wsgiserver
+import sqlite3
+import csv
+
+con1 = sqlite3.connect('database.db')
+con1.text_factory = str
+cur1 = con1.cursor()
+cur1.execute('''DROP TABLE if exists http''')
+## Create table and push data
+cur1.execute('''CREATE TABLE if not exists http(Request_Method text, Request text, Request_Payload text, Response text, Count integer, Content_type text, Content_length integer, Pcap_name text)''')
+cur1.execute('''CREATE INDEX packet ON http(Request)''')
+con1.commit()
+con1.close()
+
+pcap_number = 0
+pcap_enum = {}
+responses_list = []
+responses_headers_list = []
+pcap_files = os.listdir('pcaps')
+for pcap in pcap_files:
+    dict1 = {}
+    response_header = []
+    response = []
+    name = 'pcaps/' + pcap
+    cmd = "python create_db.py " + name
+    os.system(cmd)
+    a = open('responses_headers.csv', 'r')
+    b = open('responses1.txt', 'rb')
+
+    pcap_enum[pcap] = pcap_number
+    pcap_number += 1
+    d = csv.reader(a, delimiter = ',')
+    for value in d:
+        if value == ["", ""]:
+            response_header.append(dict1)
+            dict1 = {}
+        else:
+            dict1[value[0]] = value[1]
+
+    g = b.read()
+    l = g.count("mofo\r\n\r\n\r\n\r\n\r\n\n\n\n\n\n", 0, len(g))
+    print l
+    for i in range(0,l):
+        d = g.find("mofo\r\n\r\n\r\n\r\n\r\n\n\n\n\n\n")
+        res = g[:d]
+        #print res
+        response.append(res)
+        e = g[d+19:]
+        g = e
+	
+    print len(response)
+    responses_list.append(response)
+    responses_headers_list.append(response_header)
+    con = sqlite3.connect('newdb.db')
+    cur = con.cursor()
+    cur.execute('''SELECT * FROM http''')
+    data = cur.fetchall()
+    con.close()
+    con1 = sqlite3.connect('database.db')
+    cur1 = con1.cursor()
+    for item in data:
+        
+        cur1.execute('''INSERT INTO http(Request_Method, Request, Request_Payload, Response, Count, Content_type, Content_length, Pcap_name) VALUES(?, ?, ?, ?, ?, ?, ?, ?)''',(item[0],item[1], item[2], item[3], item[4], item[5], item[6], pcap))
+    con1.commit()
+    con1.close()
+
+    a.close()
+    b.close()
+
+request_uri = ""
+req_method = ""
+req_uri = ""
+count_index = 0
+
+class CherryProxy_tcpreplay(cherryproxy.CherryProxy):
+    global request_uri
+    global req_method
+    global req_uri
+    global conunt_index
+    global req_path
+    global req_host
+    global pcap_enum
+    global responses_list
+    global responses_headers_list
+    def filter_request(self):
+        pass
+    def filter_request_headers(self):
+        global request_uri
+        global req_method
+        global req_uri
+        global conunt_index
+        global req_path
+        global req_host
+        req_method = self.req.method
+        req_path = self.req.path
+        req_host = self.req.netloc
+        req_uri = req_host + req_path
+        request_uri = self.req.full_url
+        #print request_uri
+        #print req_uri
+    def filter_response_headers(self):
+        pass
+    def filter_response(self):
+        global request_uri
+        global req_method
+        global req_uri
+        global conunt_index
+        global req_path
+        global req_host
+        global pcap_enum
+        global responses_list
+        global responses_headers_list
+        #print "**********"
+        #print ">>>" + request_uri
+        #print "##########"
+        sys.stdout.flush()
+        con = sqlite3.connect('database.db')
+        cur = con.cursor()
+        cur.execute('''SELECT Count, Response, Pcap_name FROM http WHERE Request = ?''', (request_uri, ))
+        a = cur.fetchone()
+        con.close()
+        if a != None:
+            print a
+            count_get = a[0]
+            status_get = a[1]
+            pcap_name = a[2]
+            list_item = int(pcap_enum[pcap_name])
+            #print ">>>>", pcap_enum, type(list_item)
+            #print a[0]
+            data_get = responses_list[list_item][a[0]-1]
+            #print responses_list[list_item][39]
+            resp_header = responses_list[list_item]
+            
+            #print len(responses_list[list_item])
+            type_get = responses_headers_list[list_item][a[0]-1]['content-type']
+            print type_get
+            print data_get
+            self.set_response(int(status_get), "Response", data = data_get, content_type = type_get)
+            
+        else:
+            print ">>>" , request_uri 
+            if "http://127.0.0.1:5000/" in request_uri:
+                pass
+            else:
+                self.set_response(200, "Response", data = "madmax", content_type='text/plain')
+
+cherryproxy.main(CherryProxy_tcpreplay)
+

@@ -1,0 +1,16 @@
+
+Request: GET solarfrs.com/m/oozcd.php?ids=CollabPDF&
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: <br />
+<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'user1_m'@'localhost' (using password: YES) in <b>/home/user1/domains/solarfrs.com/public_html/m/oozcd.php</b> on line <b>17</b><br />
+Access denied for user 'user1_m'@'localhost' (using password: YES)
+_________________
+
+Request: GET solarfrs.com/m/oozcd.php?ids=CollabPDF&
+Request Payload: 
+Response: HTTP/1.1 200 OK
+Response Payload: <br />
+<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'user1_m'@'localhost' (using password: YES) in <b>/home/user1/domains/solarfrs.com/public_html/m/oozcd.php</b> on line <b>17</b><br />
+Access denied for user 'user1_m'@'localhost' (using password: YES)
+_________________

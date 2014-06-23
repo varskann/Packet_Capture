@@ -1,0 +1,236 @@
+import os, pwd
+import sys
+import nids
+import gzip
+import dpkt
+import sqlite3
+from StringIO import StringIO
+import re
+import csv
+import pickle
+count = 0
+NOTROOT = "nobody"   # edit to taste
+end_states = (nids.NIDS_CLOSE, nids.NIDS_TIMEOUT, nids.NIDS_RESET)
+
+result = open('using_pynids.txt', 'w')
+f = open('responses1.txt', 'wb')
+g = open('responses_headers.csv', 'w')
+csvwriter = csv.writer(g)
+
+con = sqlite3.connect('newdb.db')
+con.text_factory = str
+cur = con.cursor()
+cur.execute('''DROP TABLE if exists http''')
+## Create table and push data
+cur.execute('''CREATE TABLE if not exists http(Request_Method text, Request text, Request_Payload text, Response text, Count integer, Content_type text, Content_length integer)''')
+cur.execute('''CREATE INDEX packet ON http(Request)''')
+con.commit()
+con.close()
+
+resources = []
+responses_headers = []
+openstreams = {}
+responses = []
+#response = []
+#response_header = []
+
+def handleTcpStream(tcp):
+    global count
+    global responses
+    global responses_headers
+    #global openstreams
+    #global NOTROOT
+    #global end_states
+    #NOTROOT = "nobody"
+    #print tcp.nids_state
+    #print nids.NIDS_JUST_EST
+    #print nids.NIDS_DATA
+    #print end_states
+    #print "tcps -", str(tcp.addr), " state:", tcp.nids_state
+    if tcp.nids_state == nids.NIDS_JUST_EST:
+        # new to us, but do we care?
+        ((src, sport), (dst, dport)) = tcp.addr
+        
+        if dport == 80:
+            tcp.client.collect = 1
+            tcp.server.collect = 1
+
+            openstreams[tcp.addr] = tcp
+    elif tcp.nids_state == nids.NIDS_DATA:
+        # keep all of the stream's new data
+        tcp.discard(0)
+
+        openstreams[tcp.addr] = tcp
+    elif tcp.nids_state in end_states:
+        del openstreams[tcp.addr]
+        
+        processTcpStream(tcp)        
+    else:
+        tcp.nids_state = nids.NIDS_JUST_EST
+
+def processTcpStream(tcp):
+        global count
+        global responses
+        global responses_headers
+        #print count
+        #global openstreams
+
+        ((src, sport), (dst, dport)) = tcp.addr
+        #print "Dickhead"
+        # data to server
+        server_data= tcp.server.data[:tcp.server.count]
+        # data to client
+        client_data = tcp.client.data[:tcp.client.count]
+    
+        # extract *all* the requests in this stream
+        req = ""
+        while len(req) < len(server_data):
+            req = dpkt.http.Request(server_data)
+            #print req
+            host_hdr = req.headers['host']
+            full_uri = req.uri if req.uri.startswith("http://") else \
+                "http://%s%s" % (host_hdr, req.uri)
+
+            try:
+                res = dpkt.http.Response(client_data)
+                data = res.body
+                #print count
+                try:
+                    content_type = res.headers["content-type"]
+                except:
+                    content_type = None
+                try:
+                    content_length = int(res.headers["content-length"])
+                except:
+                    content_length = 0
+                #print count
+		resources.append(res.body)
+                try:
+                    pload = gzip.GzipFile(fileobj=StringIO(data)).read()
+                    print count
+                    count += 1
+                    result.write("\nRequest Method: " + req.method)
+                    result.write("\nRequest: "+ full_uri)
+                    result.write("\nRequest Payload: "+req.body)
+                    result.write("\nResponse: "+ res.status)
+                    result.write("\nResponse Payload: "+pload)
+                    result.write("\n_________________\n\n\n\n\n")
+                    con = sqlite3.connect('newdb.db')
+                    con.text_factory = str
+                    cur = con.cursor()
+                    cur.execute('''select * from http''')
+                    cur.execute('''INSERT INTO http(Request_Method, Request, Request_Payload, Response, Count, Content_type, Content_length) VALUES(?, ?, ?, ?, ?, ?, ?)''', (req.method, full_uri, req.body, res.status, count, content_type, content_length))
+                    responses.append(pload)
+                    #print len(responses)
+                    responses_headers.append(res.headers)
+                    #print res.headers
+
+                    f.write(pload)
+                    f.write("mofo\r\n\r\n\r\n\r\n\r\n\n\n\n\n\n")
+                    for key, value in res.headers.items():
+                        csvwriter.writerow([key, value])
+                    csvwriter.writerow(["", ""])
+                    con.commit()
+                    con.close()
+                    break
+                    
+                except:
+
+                    if 'content-encoding' not in res.headers:
+                        pload = data
+                        #print count
+                        count += 1
+                        result.write("\nRequest Method: " + req.method)
+                        result.write("\nRequest: "+ full_uri)
+                        result.write("\nRequest Payload: "+req.body)
+                        result.write("\nResponse: "+ res.status)
+                        result.write("\nResponse Payload: "+pload)
+                        result.write("\n_________________\n\n\n\n\n")
+                        con = sqlite3.connect('newdb.db')
+                        con.text_factory = str
+                        cur = con.cursor()
+                        cur.execute('''select * from http''')
+                        cur.execute('''INSERT INTO http(Request_Method, Request, Request_Payload, Response, Count, Content_type, Content_length) VALUES(?, ?, ?, ?, ?, ?, ?)''', (req.method, full_uri, req.body, res.status, count, content_type, content_length))
+                        responses.append(pload)
+                        #print len(responses)
+                        responses_headers.append(res.headers)
+                        #print res.headers
+
+                        f.write(pload)
+                        f.write("mofo\r\n\r\n\r\n\r\n\r\n\n\n\n\n\n")
+                        for key, value in res.headers.items():
+                            csvwriter.writerow([key, value])
+                        csvwriter.writerow(["", ""])
+                        con.commit()
+                        con.close()
+                        break
+             
+                if res.headers.has_key("content-length"):
+                    body_len = int(res.headers["content-length"])
+                    hdr_len = client_data.find('\r\n\r\n')
+                    client_data = client_data[body_len + hdr_len + 4:]
+                else:
+                    hdr_body_len = client_data.find("HTTP/1")
+                    client_data = client_data[hdr_body_len]
+            
+                if not resources.has_key(full_uri):
+                    resources[full_uri] = []
+                resources[full_uri].append(res)
+
+                server_data = server_data[len(req):]
+                 
+            except:
+                pass
+
+
+
+def main(arg1):
+    global count
+    global responses
+    global responses_headers
+    global response
+    global response_header
+    #global openstreams
+    #pcaps_file = os.listdir(arg1)
+    #for pcap_file in pcaps_file:
+        #print pcap_file
+    #responses_headers = []
+    #openstreams = {}
+    #responses = []
+    
+    #print "Atleast entered here"
+    #nids.param("pcap_filter", "tcp")       # bpf restrict to TCP only, note
+                                            # libnids caution about fragments
+
+    nids.param("scan_num_hosts", 0)         # disable portscan detection
+
+    #if len(sys.argv) == 2:                  # read a pcap file?
+    nids.param("filename", arg1)
+  
+
+    nids.init()
+
+    nids.register_tcp(handleTcpStream)
+    # Loop forever (network device), or until EOF (pcap file)
+    # Note that an exception in the callback will break the loop!
+    try:
+        nids.run()
+    except nids.error, e:
+        print "nids/pcap error:", e
+    except Exception, e:
+        print "misc. exception (runtime error in user callback?):", e
+
+    for c, stream in openstreams.items():
+        processTcpStream(stream)
+
+    #print len(responses)
+    #print responses[40]
+    #csvwriter.writerows(responses_headers)
+    result.close()
+    f.close()
+    g.close()
+    #count = 0
+    #return
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1]))
+   

@@ -1,0 +1,703 @@
+alternate-protocol,80:quic
+content-length,0
+x-xss-protection,1; mode=block
+age,0
+server,gws
+connection,Keep-Alive
+date,"Mon, 23 Jun 2014 11:12:53 GMT"
+x-frame-options,SAMEORIGIN
+content-type,text/html; charset=UTF-8
+,
+alternate-protocol,80:quic
+content-length,275
+x-xss-protection,1; mode=block
+age,0
+server,gws
+connection,Keep-Alive
+location,https://www.google.co.in/?gfe_rd=cr&ei=tQuoU8n8KIaM8QeZ6oFI&gws_rd=ssl
+cache-control,private
+date,"Mon, 23 Jun 2014 11:12:54 GMT"
+x-frame-options,SAMEORIGIN
+content-type,text/html; charset=UTF-8
+,
+content-length,35
+expires,"Fri, 04 Aug 1978 12:00:00 GMT"
+server,QS
+connection,close
+pragma,no-cache
+cache-control,"private, no-cache, no-store, proxy-revalidate"
+date,"Mon, 23 Jun 2014 11:13:08 GMT"
+content-type,image/gif
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,779
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Thu, 03 Feb 2011 05:32:43 GMT"
+connection,Keep-Alive
+etag,"""d9c5-49b5a184a6b9a-gzip"""
+cache-control,max-age=900
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,application/javascript
+,
+content-length,1140
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Sun, 18 May 2014 17:48:49 GMT"
+connection,Keep-Alive
+etag,"""474-4f9b04250e240"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,image/jpeg
+age,0
+,
+content-length,15355
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Sat, 21 Jun 2014 21:35:32 GMT"
+connection,Keep-Alive
+etag,"""3bfb-4fc5f63b8f100"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,image/jpeg
+age,0
+,
+content-length,2009
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Sun, 08 Dec 2013 06:10:17 GMT"
+connection,Keep-Alive
+etag,"""7d9-4ecffbbb72440"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,image/jpeg
+age,0
+,
+content-length,1091
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,7
+server,NetDNA-cache/2.2
+last-modified,"Sat, 14 Dec 2013 17:53:48 GMT"
+connection,Keep-Alive
+etag,"""443-4ed8242c315d3"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,image/jpeg
+age,0
+,
+content-length,18167
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Sun, 22 Jun 2014 14:14:53 GMT"
+connection,Keep-Alive
+etag,"""46f7-4fc6d59ad3140"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,image/jpeg
+age,46
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,802
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Thu, 03 Feb 2011 05:32:43 GMT"
+connection,Keep-Alive
+etag,"""6bc-49b5a184a9a77-gzip"""
+cache-control,max-age=900
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,application/javascript
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,794
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Sun, 12 Jun 2011 21:09:41 GMT"
+connection,Keep-Alive
+etag,"""24e1-4a58a38af710e-gzip"""
+cache-control,max-age=900
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,application/javascript
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,2692
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Wed, 28 May 2014 14:23:21 GMT"
+connection,Keep-Alive
+etag,"""c16f-4fa768dec4840-gzip"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,text/css
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,709
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Tue, 27 May 2014 16:44:16 GMT"
+connection,Keep-Alive
+etag,"""168dd-4fa64680ccf23-gzip"""
+cache-control,max-age=900
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,text/css
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,817
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Thu, 03 Feb 2011 05:32:43 GMT"
+connection,Keep-Alive
+etag,"""b046-49b5a184a7b3b-gzip"""
+cache-control,max-age=900
+date,"Mon, 23 Jun 2014 11:13:04 GMT"
+content-type,application/javascript
+,
+content-length,98
+accept-ranges,bytes
+x-pt-backend,5
+server,Apache/2.4.6 (Unix) OpenSSL/1.0.1e PHP/5.5.3 mod_qos/10.20
+last-modified,"Thu, 03 Feb 2011 05:32:45 GMT"
+connection,Keep-Alive
+etag,"""62-49b5a1868a756"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:03 GMT"
+content-type,image/gif
+age,1020
+,
+content-length,41763
+x-drupal-cache,MISS
+x-powered-by,PHP/5.5.9
+content-encoding,gzip
+accept-ranges,bytes
+expires,"Mon, 23 Jun 2014 11:21:45 GMT"
+vary,Accept-Encoding
+x-pt-backend,5
+server,Apache/2.4.9 (Unix) OpenSSL/1.0.1h PHP/5.5.9 mod_qos/10.20
+last-modified,"Mon, 23 Jun 2014 11:06:45 +0000"
+connection,Keep-Alive
+etag,"""1403521605"""
+cache-control,"public, max-age=900"
+date,"Mon, 23 Jun 2014 11:13:02 GMT"
+content-type,text/html; charset=utf-8
+age,375
+,
+content-length,72
+accept-ranges,bytes
+x-pt-backend,5
+server,Apache/2.4.6 (Unix) OpenSSL/1.0.1e PHP/5.5.3 mod_qos/10.20
+last-modified,"Thu, 03 Feb 2011 05:32:45 GMT"
+connection,Keep-Alive
+etag,"""48-49b5a1868a756"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:03 GMT"
+content-type,image/gif
+age,1023
+,
+content-length,205
+accept-ranges,bytes
+x-pt-backend,5
+server,Apache/2.4.6 (Unix) OpenSSL/1.0.1e PHP/5.5.3 mod_qos/10.20
+last-modified,"Thu, 03 Feb 2011 05:32:45 GMT"
+connection,Keep-Alive
+etag,"""cd-49b5a1868a756"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:03 GMT"
+content-type,image/gif
+age,998
+,
+content-length,197
+accept-ranges,bytes
+x-pt-backend,5
+server,Apache/2.4.6 (Unix) OpenSSL/1.0.1e PHP/5.5.3 mod_qos/10.20
+last-modified,"Thu, 03 Feb 2011 05:32:45 GMT"
+connection,Keep-Alive
+etag,"""c5-49b5a1868a756"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:03 GMT"
+content-type,image/gif
+age,1031
+,
+content-length,2131
+accept-ranges,bytes
+x-pt-backend,5
+server,Apache/2.4.6 (Unix) OpenSSL/1.0.1e PHP/5.5.3 mod_qos/10.20
+last-modified,"Mon, 13 Jun 2011 20:33:28 GMT"
+connection,Keep-Alive
+etag,"""853-4a59dd4f7768b"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:08 GMT"
+content-type,image/png
+age,1026
+,
+content-length,0
+set-cookie,"IMRID=c1e7fd98-148d-4695-88c8-2c6fbfff4e28;Path=/;Domain=imrworldwide.com;Expires=Wed, 22-Jun-2016 11:13:10 GMT;Max-Age=63072000"
+age,0
+expires,"Thu, 01 Dec 1994 16:00:00 GMT"
+server,nginx
+connection,Keep-Alive
+location,http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-505189h&cg=0&cc=1&si=http%3A//www.psychologytoday.com/blog/index&rp=https%3A//www.google.co.in/&ts=compact&rnd=1403521987551&ja=1
+pragma,no-cache
+cache-control,no-cache
+date,"Mon, 23 Jun 2014 11:13:10 GMT"
+p3p,"P3P policyref=""http://www.imrworldwide.com/w3c/p3p.xml"", CP=""NOI DSP COR NID PSA ADM OUR IND UNI NAV COM"""
+,
+content-length,35
+expires,"Fri, 04 Aug 1978 12:00:00 GMT"
+server,QS
+connection,close
+pragma,no-cache
+cache-control,"private, no-cache, no-store, proxy-revalidate"
+date,"Mon, 23 Jun 2014 11:13:26 GMT"
+content-type,image/gif
+,
+content-length,1130
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Sun, 22 Jun 2014 14:15:58 GMT"
+connection,Keep-Alive
+etag,"""46a-4fc6d5d8d0380"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,image/jpeg
+age,339
+,
+content-length,25294
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,7
+server,NetDNA-cache/2.2
+last-modified,"Mon, 23 Jun 2014 07:26:10 GMT"
+connection,Keep-Alive
+etag,"""62ce-4fc7bc1e2ff92"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,image/jpeg
+age,288
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,769
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Sun, 12 Jun 2011 21:09:41 GMT"
+connection,Keep-Alive
+etag,"""ba8-4a58a38b02c8d-gzip"""
+cache-control,max-age=900
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,application/javascript
+,
+content-length,3337
+x-cache,EXPIRED
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Fri, 31 May 2013 18:17:00 GMT"
+connection,Keep-Alive
+etag,"""d09-4de079ef77f00"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,image/jpeg
+age,0
+,
+content-length,43
+expires,"Sat, 26 Jul 1997 05:00:00 GMT"
+server,Apache/2.4.9 (Unix) OpenSSL/1.0.1h mod_qos/10.20
+connection,close
+cache-control,"no-cache, must-revalidate"
+date,"Mon, 23 Jun 2014 11:13:27 GMT"
+content-type,image/gif
+,
+content-length,12498
+x-drupal-cache,MISS
+x-powered-by,PHP/5.5.10
+content-encoding,gzip
+accept-ranges,bytes
+expires,"Mon, 23 Jun 2014 12:13:50 GMT"
+vary,Accept-Encoding
+x-pt-backend,7
+server,Apache/2.4.9 (Unix) OpenSSL/1.0.1g PHP/5.5.10 mod_qos/10.20
+last-modified,"Mon, 23 Jun 2014 11:13:18 +0000"
+connection,Keep-Alive
+etag,"""1403521998"""
+cache-control,"public, max-age=3632"
+date,"Mon, 23 Jun 2014 11:13:19 GMT"
+content-type,text/html; charset=utf-8
+age,0
+,
+content-length,1445
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Mon, 23 Jun 2014 09:08:12 GMT"
+connection,Keep-Alive
+etag,"""5a5-4fc7d2ebb9700"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,image/jpeg
+age,383
+,
+content-length,4488
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Mon, 23 Jan 2012 20:42:40 GMT"
+connection,Keep-Alive
+etag,"""1188-4b7381256315c"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,image/jpeg
+age,0
+,
+content-length,1168
+x-drupal-cache,MISS
+x-cache,HIT
+x-powered-by,PHP/5.5.9
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Mon, 23 Jun 2014 10:23:51 GMT"
+connection,Keep-Alive
+etag,"""5b7a45e1754da81fc34a6a3e5a6db0e2"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,image/jpeg
+age,167
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,797
+vary,Accept-Encoding
+x-pt-backend,7
+server,NetDNA-cache/2.2
+last-modified,"Mon, 13 Jun 2011 21:09:31 GMT"
+connection,Keep-Alive
+etag,"""1e1b-4a59e55e6ba9a-gzip"""
+cache-control,max-age=900
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,application/javascript
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,288
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Wed, 28 May 2014 14:23:25 GMT"
+connection,Keep-Alive
+etag,"""c380-4fa768e295140-gzip"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:23 GMT"
+content-type,text/css
+,
+content-length,44
+expires,"Thu, 01 Dec 1994 16:00:00 GMT"
+server,nginx
+connection,Keep-Alive
+pragma,no-cache
+cache-control,no-cache
+date,"Mon, 23 Jun 2014 11:13:26 GMT"
+p3p,"P3P policyref=""http://www.imrworldwide.com/w3c/p3p.xml"", CP=""NOI DSP COR NID PSA ADM OUR IND UNI NAV COM"""
+content-type,image/gif
+,
+content-length,35
+expires,"Fri, 04 Aug 1978 12:00:00 GMT"
+server,QS
+connection,close
+pragma,no-cache
+cache-control,"private, no-cache, no-store, proxy-revalidate"
+date,"Mon, 23 Jun 2014 11:13:42 GMT"
+content-type,image/gif
+,
+content-length,43
+expires,"Sat, 26 Jul 1997 05:00:00 GMT"
+server,Apache/2.4.9 (Unix) OpenSSL/1.0.1h mod_qos/10.20
+connection,close
+cache-control,"no-cache, must-revalidate"
+date,"Mon, 23 Jun 2014 11:13:42 GMT"
+content-type,image/gif
+,
+x-cache,HIT
+transfer-encoding,chunked
+age,871
+vary,Accept-Encoding
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Mon, 13 Jun 2011 21:09:31 GMT"
+connection,Keep-Alive
+etag,"""1146-4a59e55e62dfa-gzip"""
+cache-control,max-age=900
+date,"Mon, 23 Jun 2014 11:13:42 GMT"
+content-type,application/javascript
+,
+content-length,1601
+x-cache,HIT
+accept-ranges,bytes
+x-pt-backend,5
+server,NetDNA-cache/2.2
+last-modified,"Thu, 03 Feb 2011 05:32:45 GMT"
+connection,Keep-Alive
+etag,"""641-49b5a1868929c"""
+cache-control,max-age=3600
+date,"Mon, 23 Jun 2014 11:13:42 GMT"
+content-type,image/gif
+age,535
+,
+content-length,17877
+x-drupal-cache,MISS
+x-powered-by,PHP/5.5.9
+content-encoding,gzip
+accept-ranges,bytes
+expires,"Mon, 23 Jun 2014 12:20:58 GMT"
+vary,Accept-Encoding
+x-pt-backend,5
+server,Apache/2.4.9 (Unix) OpenSSL/1.0.1h PHP/5.5.9 mod_qos/10.20
+last-modified,"Mon, 23 Jun 2014 11:13:39 +0000"
+connection,Keep-Alive
+etag,"""1403522019"""
+cache-control,"public, max-age=4039"
+date,"Mon, 23 Jun 2014 11:13:40 GMT"
+content-type,text/html; charset=utf-8
+age,1
+,
+alternate-protocol,80:quic
+content-length,275
+x-xss-protection,1; mode=block
+age,0
+server,gws
+connection,Keep-Alive
+location,https://www.google.co.in/?gfe_rd=cr&ei=tguoU5-LB4aM8QeZ6oFI&gws_rd=ssl
+cache-control,private
+date,"Mon, 23 Jun 2014 11:12:54 GMT"
+x-frame-options,SAMEORIGIN
+content-type,text/html; charset=UTF-8
+,
+content-length,41680
+x-cdn,AKAM
+x-li-pop,prod-lva1
+last-modified,"Mon, 05 Nov 2012 04:00:51 GMT"
+content-encoding,gzip
+expires,"Wed, 18 Mar 2015 22:11:55 GMT"
+vary,Accept-Encoding
+x-li-uuid,R3XLUpYcXWYNzFcXsAt83Q==
+server,Apache-Coyote/1.1
+x-li-fabric,prod-lva1
+connection,Keep-Alive
+cache-control,max-age=23194691
+date,"Mon, 23 Jun 2014 11:13:44 GMT"
+access-control-allow-origin,http://www.linkedin.com
+content-type,image/png
+,
+alternate-protocol,80:quic
+content-length,42
+x-xss-protection,1; mode=block
+x-content-type-options,nosniff
+expires,"Fri, 01 Jan 1990 00:00:00 GMT"
+server,cafe
+connection,Keep-Alive
+location,http://www.google.com/ads/user-lists/1067134801/?label=MbUjCM-e5gEQ0d7s_AM&fmt=3&bg=666666&num=1&ct_cookie_present=false&cv=7&frm=0&url=http%3A%2F%2Fwww.psychologytoday.com%2Fblog%2Findex&ref=https%3A%2F%2Fwww.google.co.in%2F&random=3719786799
+pragma,no-cache
+cache-control,"no-cache, must-revalidate"
+date,"Mon, 23 Jun 2014 11:13:08 GMT"
+p3p,"policyref=""http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml"", CP=""CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"""
+content-type,image/gif
+,
+content-length,44
+expires,"Thu, 01 Dec 1994 16:00:00 GMT"
+server,nginx
+connection,Keep-Alive
+pragma,no-cache
+cache-control,no-cache
+date,"Mon, 23 Jun 2014 11:13:42 GMT"
+p3p,"P3P policyref=""http://www.imrworldwide.com/w3c/p3p.xml"", CP=""NOI DSP COR NID PSA ADM OUR IND UNI NAV COM"""
+content-type,image/gif
+,
+x-li-pop,PROD-NSG7
+x-content-type-options,nosniff
+content-encoding,gzip
+transfer-encoding,chunked
+set-cookie,"lidc=""b=LB84:g=82:u=1:i=1403521998:t=1403608398:s=2700664741""; Expires=Tue, 24 Jun 2014 11:13:18 GMT; domain=.linkedin.com; Path=/"
+expires,"Thu, 01 Jan 1970 00:00:00 GMT"
+vary,Accept-Encoding
+x-li-uuid,2HAxS9JPehMQMC3LMSsAAA==
+server,Apache-Coyote/1.1
+x-li-fabric,PROD-ELA4
+connection,Keep-Alive
+pragma,no-cache
+cache-control,"no-cache, no-store"
+date,"Mon, 23 Jun 2014 11:13:18 GMT"
+x-frame-options,sameorigin
+content-type,image/gif
+,
+content-length,0
+age,0
+expires,"Mon, 01 Jan 1990 00:00:00 GMT"
+connection,Keep-Alive
+pragma,no-cache
+cache-control,"private, no-cache, no-cache=Set-Cookie, no-store, proxy-revalidate"
+date,"Mon, 23 Jun 2014 11:13:07 GMT"
+,
+alternate-protocol,80:quic
+content-length,259
+age,0
+server,GFE/2.0
+connection,Keep-Alive
+location,http://www.google.co.in/?gfe_rd=cr&ei=tQuoU8n8KIaM8QeZ6oFI
+cache-control,private
+date,"Mon, 23 Jun 2014 11:12:53 GMT"
+content-type,text/html; charset=UTF-8
+,
+alternate-protocol,80:quic
+content-length,9692
+x-xss-protection,1; mode=block
+content-encoding,gzip
+age,0
+expires,"Mon, 23 Jun 2014 11:13:07 GMT"
+vary,Accept-Encoding
+server,HTTP server (unknown)
+connection,Keep-Alive
+cache-control,"private, max-age=956"
+date,"Mon, 23 Jun 2014 11:13:07 GMT"
+content-type,text/javascript; charset=UTF-8
+,
+content-length,144
+strict-transport-security,max-age=631138519
+x-cache,MISS
+content-encoding,gzip
+accept-ranges,bytes
+expires,"Mon, 23 Jun 2014 11:28:42 GMT"
+vary,Accept-Encoding
+server,tfe
+last-modified,"Mon, 23 Jun 2014 11:13:42 GMT"
+connection,Keep-Alive
+via,1.1 varnish
+x-cache-hits,0
+x-served-by,cache-tw-sin1-cr1-4-TWSIN1
+cache-control,"must-revalidate, max-age=900"
+date,"Mon, 23 Jun 2014 11:13:43 GMT"
+content-type,application/javascript;charset=utf-8
+age,0
+,
+content-length,2089
+via,1.1 190bfa25d3ea68af441fa39cb7f0f71b.cloudfront.net (CloudFront)
+x-cache,Miss from cloudfront
+age,69617
+expires,"Wed, 18 May 2033 03:33:20 GMT"
+server,nginx
+last-modified,"Tue, 12 Nov 2013 21:29:38 GMT"
+connection,Keep-Alive
+x-amz-cf-id,kzUgtnr37Db5qDKWJm3cdLiuT33UFe3o9YElWt18Mfq0XIghdvZy6Q==
+cache-control,"max-age=630720000,public"
+date,"Mon, 23 Jun 2014 11:13:25 GMT"
+content-type,image/jpeg
+,
+alternate-protocol,80:quic
+content-length,35
+x-content-type-options,nosniff
+age,451444
+expires,"Wed, 19 Apr 2000 11:43:00 GMT"
+server,Golfe2
+last-modified,"Wed, 21 Jan 2004 19:51:30 GMT"
+connection,Keep-Alive
+pragma,no-cache
+cache-control,"private, no-cache, no-cache=Set-Cookie, proxy-revalidate"
+date,"Wed, 18 Jun 2014 05:48:49 GMT"
+content-type,image/gif
+,
+alternate-protocol,80:quic
+content-length,35
+x-content-type-options,nosniff
+age,451443
+expires,"Wed, 19 Apr 2000 11:43:00 GMT"
+server,Golfe2
+last-modified,"Wed, 21 Jan 2004 19:51:30 GMT"
+connection,Keep-Alive
+pragma,no-cache
+cache-control,"private, no-cache, no-cache=Set-Cookie, proxy-revalidate"
+date,"Wed, 18 Jun 2014 05:48:50 GMT"
+content-type,image/gif
+,
+alternate-protocol,80:quic
+content-length,12551
+x-xss-protection,1; mode=block
+content-disposition,"attachment; filename=""f.txt"""
+x-content-type-options,nosniff
+content-encoding,gzip
+age,551
+expires,"Mon, 23 Jun 2014 12:03:56 GMT"
+server,cafe
+connection,Keep-Alive
+etag,18265200477297712203
+cache-control,"public, max-age=3600"
+date,"Mon, 23 Jun 2014 11:03:56 GMT"
+p3p,"policyref=""http://www.googleadservices.com/pagead/p3p.xml"", CP=""NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC"""
+content-type,text/javascript; charset=UTF-8
+,
+content-length,603
+content-encoding,gzip
+set-cookie,"su_bc=6; Expires=Wed, 23-Jul-14 11:13:46 GMT; Path=/"
+accept-ranges,bytes
+server,HoneyBadger
+last-modified,"Mon, 23 Jun 2014 11:13:46 GMT"
+connection,Keep-Alive
+cache-control,"private, must-revalidate"
+date,"Mon, 23 Jun 2014 11:13:46 GMT"
+content-type,text/html;charset=utf-8
+age,0
+,
+alternate-protocol,80:quic
+content-length,3520
+x-xss-protection,1; mode=block
+content-disposition,"attachment; filename=""f.txt"""
+x-content-type-options,nosniff
+content-encoding,gzip
+age,54653
+expires,"Mon, 23 Jun 2014 20:02:14 GMT"
+server,cafe
+connection,Keep-Alive
+etag,7955219851932391186
+cache-control,"public, max-age=86400"
+date,"Sun, 22 Jun 2014 20:02:14 GMT"
+p3p,"policyref=""http://www.googleadservices.com/pagead/p3p.xml"", CP=""NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC"""
+content-type,text/javascript; charset=UTF-8
+,
+content-length,1750
+x-cdn,AKAM
+x-li-pop,PROD-ELA4
+content-encoding,gzip
+age,0
+expires,"Tue, 24 Jun 2014 04:16:58 GMT"
+vary,Accept-Encoding
+x-li-uuid,mbINmw1234E6MksIuCbfag==
+server,Apache-Coyote/1.1
+x-li-fabric,PROD-ELA4
+connection,Keep-Alive
+cache-control,max-age=61435
+date,"Mon, 23 Jun 2014 11:13:03 GMT"
+p3p,"CP=""CAO CUR ADM DEV PSA PSD OUR"""
+content-type,text/javascript;charset=UTF-8
+,

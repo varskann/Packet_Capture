@@ -1,0 +1,35 @@
+from flask import *
+import time
+import os
+import sys
+import sqlite3
+import random
+import string
+from itsdangerous import *
+import base64
+
+app = Flask(__name__)
+app.debug = True
+
+#Creating Database
+conn = sqlite3.connect('Database.db')
+c = conn.cursor()
+c.execute('PRAGMA foreign_keys = ON;')
+
+#Global Variables
+recordID = 0
+
+#Creating tablesdd
+
+@app.route('/')
+@app.route('/index')
+def index():
+	return render_template("index.html")
+
+@app.route('/register', methods=['POST'])
+def register():
+	name = request.form["url"]
+	return name
+
+if __name__ == '__main__':
+    app.run(threaded=True)
