@@ -1,0 +1,60 @@
+content-length,256
+accept-ranges,bytes
+expires,"Wed, 09 Jun 2011 03:01:02 GMT"
+keep-alive,"timeout=20, max=1000"
+server,Apache
+connection,Keep-Alive
+location,http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml
+date,"Wed, 09 Jun 2010 03:01:04 GMT"
+x-cache-info,cached
+content-type,text/html; charset=iso-8859-1
+,
+content-length,232
+expires,"Wed, 09 Jun 2011 03:01:20 GMT"
+keep-alive,"timeout=20, max=1000"
+server,Apache
+connection,Keep-Alive
+location,http://fxfeeds.mozilla.com/firefox/headlines.xml
+date,"Wed, 09 Jun 2010 03:00:57 GMT"
+x-cache-info,cached
+content-type,text/html; charset=iso-8859-1
+,
+content-length,16558
+content-disposition,inline; filename=0c403d.pdf
+x-powered-by,PHP/5.2.6-1+lenny4
+accept-ranges,bytes
+keep-alive,"timeout=15, max=100"
+server,Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny4 with Suhosin-Patch
+connection,Keep-Alive
+date,"Wed, 09 Jun 2010 05:28:00 GMT"
+content-type,application/pdf
+,
+content-length,51
+x-powered-by,PHP/5.2.13
+vary,"Accept-Encoding,User-Agent"
+server,Apache/2
+date,"Wed, 09 Jun 2010 05:29:06 GMT"
+content-type,text/html
+,
+content-disposition,inline; filename=MalvRem_272s20.exe
+x-powered-by,PHP/5.2.6-1+lenny4
+transfer-encoding,chunked
+keep-alive,"timeout=15, max=100"
+server,Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny4 with Suhosin-Patch
+connection,Keep-Alive
+date,"Wed, 09 Jun 2010 05:28:53 GMT"
+content-type,application/octet-stream
+,
+content-length,6465
+content-encoding,gzip
+accept-ranges,bytes
+expires,"Wed, 09 Jun 2010 05:27:32 GMT"
+vary,Accept-Encoding
+server,Apache
+last-modified,"Wed, 09 Jun 2010 05:19:18 GMT"
+connection,keep-alive
+etag,"""6baa-488920c314180"""
+cache-control,max-age=7
+date,"Wed, 09 Jun 2010 05:27:25 GMT"
+content-type,text/xml
+,

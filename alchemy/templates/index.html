@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kanishk varshney</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css"> 
+	<link rel="shortcut icon" href="static/icon.ico">
+	<style type="text/css">
+		body{
+		background: url("back.jpg");
+		font-style: italic;
+		color: #454545;
+		}
+
+
+	table{
+		margin: 0 auto;
+		border: 1px solid black;
+		table-layout: fixed;
+		width:1300px;
+		text-shadow: 2px 2px 5px #BABABA;
+		box-shadow: 2px 2px 5px 3px #68C6DE;
+		border-radius: 10px;
+		background-color: #19471F;
+		}
+
+	.pagination-page-info {
+    		padding: .6em;
+    		padding-left: 0;
+    		width: 40em;
+    		margin: .5em;
+    		margin-left: 0;
+    		font-size: 12px;
+	}
+	.pagination-page-info b {
+    		color: black;
+    		background: #6aa6ed;
+    		padding-left: 2px;
+    		padding: .1em .25em;
+    		font-size: 150%;
+	}
+
+	td{
+		border: 1px solid black;
+   		overflow: hidden;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	#place{
+		text-align:center;
+	}
+
+	input{
+		box-shadow: 2px 2px 10px 2px #545454; 
+		border-radius: 10px;
+	}
+	input[type = "text"]{
+		width: 400px;
+		border-radius: 8px;
+		box-shadow: inset 2px 2px 5px 5px #CFCFCF;
+		border: 2px solid #797979;	
+	}
+	input[type="checkbox"]{
+		box-shadow: none;
+	}
+
+	input[type="submit"]{
+		border-radius: 20px 20px 20px 20px;
+		height: 30px;
+		width: 100px;
+		font-style: italic;
+		top: 50%
+	} 
+
+	input[type="submit"]:hover{
+		box-shadow: 2px 2px 10px 2px #1499BA;
+		-webkit-transition: all 1000ms ease;
+		-moz-transition: all 1000ms ease;
+		-ms-transition: all 1000ms ease;
+		-o-transition: all 1000ms ease;
+		transition: all 1000ms ease;
+		color: #0CE1F0;
+	}
+	a{
+		color: #A59CFF;
+		font-style: none;
+		text-shadow: 2px 2px 5px #1C42FF;
+	}
+
+	.down{
+		color: purple;
+		text-decoration: none;
+	}
+	
+	.down:hover{
+		color: green;
+		text-shadow: 2px 2px 5px green;
+		text-decoration: none;
+	}
+
+	</style>		
+</head>
+<body>
+
+	<form method = "post">
+		<div id = "place">
+			<table>
+				<tr style = "background-color: #68C6DE; height: 40px; font-style: italic; text-shadow: 4px 4px 5px #797979;">
+					<td></td>
+					<td style="width:200px;" >Pcap File Name</td>					
+					<td>Packet Number</td>
+					<td>Request Method</td>
+					<td style = "width: 500px">Request URI</td>
+					<td>Response Status</td>
+					<td>Content length</td>
+					<td>Content type</td>
+				</tr>
+			{% for item in range(start, end): %}
+				{% if name[item][2] in searched: %}
+				<tr style = " text-shadow: 2px 2px 5px #3E9C5A; background-color: #C5F2A2; height: 40px;">
+					<td style = "box-shadow: inset 2px 2px 5px 5px #3E9C5A;"><input type = "checkbox" name = "check" value = "{{ name[item][7] }}"></td>
+					<td style = "box-shadow: inset 2px 2px 5px 5px #3E9C5A;">{% print name[item][1] %}</td>	
+					<td style = "box-shadow: inset 2px 2px 5px 5px #3E9C5A;">{% print name[item][2] %}</td>
+					<td style = "box-shadow: inset 2px 2px 5px 5px #3E9C5A;">{% print name[item][0] %}</td>
+					<td style = "width: 500px; box-shadow: inset 2px 2px 5px 5px #3E9C5A;">{% print name[item][2] %}</td>
+					<td style = "box-shadow: inset 2px 2px 5px 5px #3E9C5A;">{% print name[item][4] %}</td>
+					<td style = "box-shadow: inset 2px 2px 5px 5px #3E9C5A;">{% print name[item][6] %}</td>
+					<td style = "box-shadow: inset 2px 2px 5px 5px #3E9C5A;">{% print name[item][5] %}</td>
+				</tr>
+				{% else: %}
+				<tr style = "background-color: #FFF; height: 40px;">
+					<td><input type = "checkbox" name = "check" value = "{{ name[item][7] }}"></td>
+					<td style="width:200px;">{% print name[item][1] %}</td>	
+					<td>{% print name[item][2] %}</td>
+					<td>{% print name[item][0] %}</td>
+					<td style = "width: 500px">{% print name[item][3] %}</td>
+					<td>{% print name[item][4] %}</td>
+					<td>{% print name[item][6] %}</td>
+					<td>{% print name[item][5] %}</td>
+				</tr>
+				{% endif %}
+			{% endfor %}
+
+			</table>
+			<br><br /><br>
+			{% for page in range(1, pages+1): %}
+				{% if page == current: %}
+					<a style = "text-decoration: none; color: #47F3FF;" href = '#'}}">{{ page }}</a>
+				{% else: %}
+					<a href="{{ url_for_other_page(page) }}">{{ page }}</a>
+				{% endif %}
+			{% endfor %}
+			<br><br>
+			Search: <input type = "text" name = "Packet" />
+			<br><br>
+			Pcap file name:<br>
+			<!--<select name = "pcap_file">-->
+			{% for i in pcap: %}
+				<input type = "checkbox" value = "{{ i }}" name = "file"  />{{i}}<br>
+			{% endfor %}
+			
+			<br><br>
+			<input type = "submit" value = "{% print 'Refresh'%}" name = "refresh"  formaction = "{{ url_for('refresh') }}"/>
+			<input type = "submit" value = "{% print 'Search'%}" name = "search"  formaction = "{{ url_for('register') }}"/>
+			<input type = "submit" value = "{% print 'Delete' %}" name = "delete"  formaction = "{{ url_for('delete') }}"/>
+			<input type = "submit" value = "{% print 'Browse' %}" name = "browse" formaction = "{{ url_for('browse') }}" />
+			<br><br><br>
+			Download:<a class = "down" href = "static/jinja.exe">Jinja</a>
+
+		</div>
+	</form>
+
+	{% with messages = get_flashed_messages() %}
+		{% if messages %}
+			Results:
+			<pre>
+				{% for message in messages %}
+					{% for Request in message %}
+	{{ Request[0] }}
+					{% endfor %}
+				{% endfor %}
+			</pre>
+		{% endif %}
+	{% endwith %}
+</body>
+</html>
